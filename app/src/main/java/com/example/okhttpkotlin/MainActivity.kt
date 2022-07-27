@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
         rec_account.setHasFixedSize(true)
         rec_account.layoutManager = LinearLayoutManager(this, RecyclerView.VERTICAL, false)
         fetchJSON()
-
     }
 
     private fun fetchJSON() {
